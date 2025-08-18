@@ -1,0 +1,70 @@
+
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 40px;
+}
+
+header > .interface{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+header a{
+    text-decoration: none;
+    color: #5c5c5c;
+    display: inline-block;
+    transition: 2s;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+.logo a{
+    color: white;
+}
+
+
+.logo:hover{
+    box-shadow: 0 0 8 red;
+}
+
+nav a{
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 40px ;
+    transition: 1s;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0 0 8px red;
+}
