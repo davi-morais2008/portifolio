@@ -44,6 +44,9 @@ header a:hover{
     color: white;
 }
 
+.logo span{
+    color: red;
+}
 
 .logo:hover{
     box-shadow: 0 0 8 red;
