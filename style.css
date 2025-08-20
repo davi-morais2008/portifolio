@@ -17,6 +17,10 @@ body{
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+}
+
 /* ESTILO DO CABEÇALHO */
 header{
     padding: 40px;
@@ -41,10 +45,12 @@ header a:hover{
 }
 
 .logo a{
+    font-size: 24px;
     color: white;
 }
 
 .logo span{
+    font-size: 24px;
     color: red;
 }
 
@@ -70,4 +76,48 @@ header .btn-contato button{
 
 header .btn-contato button:hover{
     box-shadow: 0 0 8px red;
+}
+
+/* ESTILO DO MAIN */
+section.topo-site{
+    padding: 40px;
+}
+
+section.topo-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-site h1{
+    color: white;
+    font-size: 38px;
+    line-height: 40px;
+}
+
+.topo-site .txt-topo-site p{
+    padding: 40px 0;
+    color: white;
+    font-size: 20px;
+}
+
+.topo-site h1 span{
+    color: red;
+}
+
+.topo-site img{
+    border-radius: 50%;
+}
+
+.topo-site .btn-contato button{
+    padding: 5 0px 0;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 40px ;
+    transition: 1s;
+    cursor: pointer;
 }
