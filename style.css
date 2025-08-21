@@ -107,6 +107,7 @@ section.topo-site .flex{
 
 .topo-site img{
     border-radius: 50%;
+    box-shadow: 0 0 50px darkred;
 }
 
 .topo-site .btn-contato button{
@@ -120,4 +121,8 @@ section.topo-site .flex{
     padding: 10px 40px ;
     transition: 1s;
     cursor: pointer;
+}
+
+.topo-site .btn-contato button:hover{
+    box-shadow: 0 0 15px red;
 }
