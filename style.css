@@ -126,3 +126,17 @@ section.topo-site .flex{
 .topo-site .btn-contato button:hover{
     box-shadow: 0 0 15px red;
 }
+
+/* ESTILO DA SEÇÃO TOOLS */
+section.tools{
+    padding: 40px;
+}
+
+section.tools .flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.tools h1{
+    color: white;
+}
